@@ -1598,8 +1598,7 @@ pub enum CursorGrabMode {
     ///
     /// ## Platform-specific
     ///
-    /// - **X11:** Not implemented. Always returns [`ExternalError::NotSupported`] for
-    ///   now.
+    /// - **X11:** Not implemented. Always returns [`ExternalError::NotSupported`] for now.
     /// - **iOS / Android:** Always returns an [`ExternalError::NotSupported`].
     Locked,
 }
